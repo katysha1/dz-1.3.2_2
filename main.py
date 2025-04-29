@@ -81,7 +81,7 @@ def save_to_csv(data, filename='weather_data.csv'):
 
 # Пример использования
 if __name__ == "__main__":
-    API_KEY = '15d1f18739edfbb349da2e1a09a5861c'
+    API_KEY = 'your key'
     CITIES = ['Москва', 'Лондон', 'Нью-Йорк', 'Токио', 'Париж']
 
     weather_data = get_weather_data(CITIES, API_KEY)
